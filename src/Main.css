@@ -1,0 +1,117 @@
+.hero {
+    height: calc(100vh - 80px);
+    width: 100%;
+    align-items: center;    
+}
+
+.presentation {
+  
+}
+
+.ill {
+    align-items: center;
+}
+
+.illu {    
+  min-width: 31.75rem;
+  min-height: 32.1875rem;
+}
+
+.section {
+  height: 60vh;
+  max-width: 80vw;
+}
+
+.sectionHeading {
+  border-bottom: 4px dashed var(--color-secondary);  
+}
+
+#overlay {
+  background-color: rgba(38, 197, 157, 0.14);
+  backdrop-filter: blur(5px);
+  z-index: 50;   
+  transition: .5s ease all;
+}
+
+#overlay:hover {
+  opacity: 0;
+}
+
+.picture {
+  border: 4px dashed var(--color-primary);
+  transition: .5s cubic-bezier(0.01, 0.91, 0.32, 1.28);
+}
+
+.picture:hover {
+  transform: rotate(0.03turn) translatez(-3px) scale(1.05);  
+}
+
+.button {
+  transition: 0.5s ease-in-out;
+}
+
+.button:hover {
+  transform: translatey(2px);
+}
+
+h1::selection {
+  background: var(--color-primary);
+  color: white;
+} 
+
+h2::selection {
+  background: var(--color-primary);
+  color: white;
+}
+
+h3::selection {
+  background: var(--color-primary);
+  color: white;
+}
+
+h4::selection {
+  background: var(--color-primary);
+  color: white;
+}
+
+h5::selection {
+  background: var(--color-primary);
+  color: white;
+} 
+
+h6::selection {
+  background: var(--color-primary);
+  color: white;
+} 
+
+p::selection {
+  background: var(--color-secondary);
+  color: var(--color-primary);
+}
+
+a::selection {
+  background: var(--color-secondary);
+  color: var(--color-primary);
+}
+
+li::selection {
+  background: var(--color-secondary);
+}
+
+.icon {
+  transition: .5s ease all;
+}
+
+.icon:hover {
+  transform: translatey(-2px);
+}
+
+@media (max-width: 768px) {
+  .section {
+    height: auto;
+    max-width: 100%;
+  }
+}
+
+
+
