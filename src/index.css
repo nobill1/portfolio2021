@@ -21,15 +21,15 @@ body {
   font-family: font-body;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  cursor: url("cursor.png"), auto;
+  cursor: url("https://res.cloudinary.com/nobill/image/upload/v1631960506/portfolio2021/cursor.png"), auto;
 }
 
 * a {
-  cursor: url("pointer.png"), auto;
+  cursor: url("https://res.cloudinary.com/nobill/image/upload/v1631960506/portfolio2021/pointer.png"), auto;
 }
 
 * button {
-  cursor: url("pointer.png"), auto;
+  cursor: url("https://res.cloudinary.com/nobill/image/upload/v1631960506/portfolio2021/pointer.png"), auto;
 }
 
 #root {

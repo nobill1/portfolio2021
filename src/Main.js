@@ -9,9 +9,6 @@ import {
 import "pure-react-carousel/dist/react-carousel.es.css";
 import "./App.css";
 import "./Main.css";
-import illus from "./illustration.svg";
-import myImage from "./poster-01.png";
-import hisImage from "./image.png";
 
 function Main() {
   return (
@@ -88,7 +85,7 @@ function Main() {
           </div>
         </div>
         <div className="ill mmd:hidden flex flex-1">
-          <img src={illus} className="illu w-full" alt="logo" />
+          <img src="https://res.cloudinary.com/nobill/image/upload/v1624378081/portfolio2021/illustration.svg" className="illu w-full" alt="logo" />
         </div>
       </div>
       <section
@@ -120,7 +117,7 @@ function Main() {
         </div>
         <div className="picture relative shadow-small hover:shadow-large mmd:m-3 h-full w-auto">
           <div id="overlay" className="w-full h-full absolute"></div>
-          <img src={myImage} alt="me" className="h-full w-auto" />
+          <img src="https://res.cloudinary.com/nobill/image/upload/v1631955604/portfolio2021/poster-01.png" alt="me" className="h-full w-auto" />
         </div>
       </section>
       <section className="container flex flex-col mmd:flex-col section mt-40 px-6 h-max mmd:px-3 mmd:mb-10">
@@ -134,13 +131,13 @@ function Main() {
             <CarouselProvider totalSlides={3}>
               <Slider>
                 <Slide index={0}>
-                  <img src={hisImage} alt="project" />
+                  
                 </Slide>
                 <Slide index={1}>
-                  <img src={hisImage} alt="project" />
+                  
                 </Slide>
                 <Slide index={2}>
-                  <img src={hisImage} alt="project" />
+                  
                 </Slide>
               </Slider>
 

@@ -20,7 +20,3 @@
     border-bottom: 4px dashed var(--color-secondary);
     color: var(--color-primary);
 }
-
-* a {
-    cursor: url("pointer.png"), auto;
-  }
